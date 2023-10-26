@@ -22,11 +22,7 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} md={6}>
-            <TrackVisibility>
-                <img src={contactImg} alt="Contact Us"/>
-            </TrackVisibility>
-          </Col>
+
           <Col size={12} md={6}>
             <TrackVisibility>
               
@@ -54,6 +50,11 @@ export const Contact = () => {
                   </Row>
                 </form>
               </div>
+            </TrackVisibility>
+          </Col>
+          <Col size={12} md={6}>
+            <TrackVisibility>
+                <img src={contactImg} alt="Contact Us"/>
             </TrackVisibility>
           </Col>
         </Row>
