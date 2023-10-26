@@ -402,7 +402,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #E0C3FC -5.91%, #8EC5FC 111.58%);
+    background: linear-gradient(90deg, #9FACE6 0%, #74EBD5 100%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -434,7 +434,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #E0C3FC -5.91%, #8EC5FC 111.58%);
+  background: linear-gradient(90deg, #9FACE6 0%, #74EBD5 100%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -582,7 +582,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  background: linear-gradient(90deg, #9FACE6 0%, #74EBD5 100%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   display: inline-block;
@@ -593,7 +593,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  background: linear-gradient(90deg, #9FACE6 0%, #74EBD5 100%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   display: inline-block;
