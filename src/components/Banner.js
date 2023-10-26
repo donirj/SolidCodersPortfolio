@@ -64,7 +64,7 @@ export const Banner = () => {
             <TrackVisibility>
             <div className="alien">
                 <div className="animate__animated animate__zoomIn">
-                  <img src={alien} alt="Header Img"/>
+                  {/* <img src={alien} alt="Header Img"/>*/}
                 </div>
                 </div>
             </TrackVisibility>
