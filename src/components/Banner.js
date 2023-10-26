@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer" ];
+  const toRotate = [ "para potenciar tu presencia en línea.", "para impulsar tu éxito digital" ];
   const period = 2000;
 
   useEffect(() => {
@@ -54,8 +54,8 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               <div className="animate__animated animate__fadeIn">
-                <h1>{`Hola! Soy Lautaro`} <br /><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Soy desarrollador web, apasionado por la tecnología y la programación. Con tres años de experiencia, trabajando bajo distintas metodologias. Enfocandome siempre en mejorar mi desempeño, aprender de cada error, para superarme tanto profesional como personalmente.</p>
+                <h1>{`Creamos sitios web`} <br /><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Nuestra misión es impulsar la presencia en línea de nuestros clientes mediante soluciones web creativas y personalizadas.</p>
                   <a href="#connect">Contactar Ahora <ArrowRightCircle size={25} /></a>
               </div>
             </TrackVisibility>
