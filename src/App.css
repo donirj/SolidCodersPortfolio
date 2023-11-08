@@ -242,73 +242,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
-.banner {
-  margin-top: 0;
-  padding: 180px 0 100px 0;
-  background-color: #74EBD5;
-  background-image: linear-gradient(90deg, #9FACE6 0%, #74EBD5 100%);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-.banner h1 {
-  font-size: 65px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
-  margin-bottom: 20px;
-  display: block;
-  color: #ffff
-}
-.banner p {
-  color: #ffff;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  width: 96%;
-}
-.banner a {
-  color: #ffff;
-  font-weight: 700;
-  font-size: 25px;
-  margin-top: 40px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-.banner a svg {
-  font-size: 25px;
-  margin-left: 10px;
-  transition: 0.3s ease-in-out;
-  line-height: 1;
-  color: #ffff;
-}
-.banner a:hover svg {
-  margin-left: 25px;
-}
-.banner a:hover {
-  color: #fff;
-}
-.banner img {
-  animation: updown 3s linear infinite;
-
-}
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
-}
-.txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
-}
 
 /************ Skills Css ************/
 .skill {
