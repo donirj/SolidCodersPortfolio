@@ -188,8 +188,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 #about {
    padding: 100px 0;
-   background: #333;
- }
+   background-color: rgba(0, 0, 0, 0.3);/* Color de fondo con transparencia */
+}
  #about h3 {
    font-size: 22px;
    margin: 0 0 20px;

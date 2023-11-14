@@ -27,7 +27,7 @@ export const Contact = () => {
             <TrackVisibility>
               
                 <div>
-                <h2>Contactame</h2>
+                <h2>Contactanos</h2>
                 <form ref={form} onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
